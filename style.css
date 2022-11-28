@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Mono:wght@300&display=swap');
+
+.nav-link {
+    font-family: 'Playfair Display';
+    font-size: 1.5rem;
+}
+
+h1,
+h2 {
+    font-family: 'Playfair Display';
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 4rem;
+}
+
+p {
+    margin: 0;
+}
+
+p,
+.btn,
+.accordion {
+    font-family: 'Roboto Mono';
+}
+
+p,
+.accordion {
+    font-size: 1.5rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    border-radius: 0;
+    margin-top: 1rem;
+}
+
+header {
+    height: 100vh;
+    background-image: url('./images/main.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header,
+.about,
+.catalog,
+.CTA,
+.blog,
+.accordion {
+    margin-bottom: 8rem;
+}
+
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+}
+
+.card-img-top {
+    border-radius: 0px;
+}
+
+.card {
+    border: 0px;
+}
+
+.card-body {
+    padding: 1rem 0;
+}
+
+.catalog-header {
+    margin-bottom: 4rem;
+}
+
+.CTA {
+    background-image: url('./images/form_bg.png');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.contacts {
+    background-image: url(./images/contact_img.png);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.accordion-button {
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}
